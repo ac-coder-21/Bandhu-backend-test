@@ -32,7 +32,7 @@ export-env {
       }
     }
 
-    let virtual_env = 'D:\Bandhu'
+    let virtual_env = 'E:\Bandhu'
     let bin = 'Scripts'
 
     let is_windows = ($nu.os-info.family) == 'windows'

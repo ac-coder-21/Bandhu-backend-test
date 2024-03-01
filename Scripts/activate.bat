@@ -1,4 +1,4 @@
-@set "VIRTUAL_ENV=D:\Bandhu"
+@set "VIRTUAL_ENV=E:\Bandhu"
 
 @set "VIRTUAL_ENV_PROMPT="
 @if NOT DEFINED VIRTUAL_ENV_PROMPT (
