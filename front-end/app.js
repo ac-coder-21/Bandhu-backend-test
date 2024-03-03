@@ -37,7 +37,7 @@ class Chatbox {
     }
 
     phoneChat(chatbox){
-        let phone = { name: "BOT", message: "Tele Manas is a government helpline: 14416" };
+        let phone = { name: "BOT", message: "Would you like to answer a few questions?" };
         this.messages.push(phone);
         this.updateChatText(chatbox)
         textField.value = ''
