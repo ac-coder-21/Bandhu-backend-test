@@ -37,7 +37,7 @@ class Chatbox {
     }
 
     phoneChat(chatbox){
-        let phone = { name: "BOT", message: "Would you like to answer a few questions?" };
+        let phone = { name: "BOT", message: "Would you like to answer a few questions? (yes or no)" };
         this.messages.push(phone);
         this.updateChatText(chatbox)
         textField.value = ''
@@ -97,7 +97,7 @@ class Chatbox {
         let msg1 = { name: "User", message: text1 }
         this.messages.push(msg1);
 
-       fetch('http://127.0.0.1:5353/gt', {
+       fetch('http://127.0.0.1:5000/depression', {
             method: 'POST',
             body: JSON.stringify({ message: text1 }),
             mode: 'cors',
